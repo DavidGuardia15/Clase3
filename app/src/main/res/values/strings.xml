@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Clase3</string>
-    <string name="yoshi">Yoshi</string>
-    <string name="peach">Peach</string>
     <string name="mario">Mario</string>
     <string name="luigi">Luigi</string>
     <string name="informationmario">Valiente y enérgico héroe del Reino Champiñón, conocido por su inconfundible gorra roja y su gran bigote. Siempre dispuesto a enfrentar cualquier peligro, destaca por su increíble habilidad para saltar, su fuerza y su espíritu inquebrantable. Con una personalidad alegre y optimista, no duda en arriesgarlo todo para salvar a sus amigos y proteger a la princesa Peach, convirtiéndose en el líder natural de cada aventura.</string>
