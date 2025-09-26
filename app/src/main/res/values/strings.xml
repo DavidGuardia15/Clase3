@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Clase3</string>
+    <string name="mario">Mario</string>
+    <string name="luigi">Luigi</string>
 </resources>
