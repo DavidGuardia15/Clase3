@@ -2,4 +2,6 @@
     <string name="app_name">Clase3</string>
     <string name="yoshi">Yoshi</string>
     <string name="peach">Peach</string>
+    <string name="mario">Mario</string>
+    <string name="luigi">Luigi</string>
 </resources>
