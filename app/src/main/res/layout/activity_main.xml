@@ -6,6 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 <androidx.appcompat.widget.Toolbar
+    android:id="@+id/tubbo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/verde"
@@ -19,24 +20,28 @@
         android:columnCount="2">
 
         <include
+            android:id="@+id/yoshi_cardview"
             layout="@layout/yoshi_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1" />
 
         <include
+            android:id="@+id/peach_cardview"
             layout="@layout/peach_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1" />
 
         <include
+            android:id="@+id/luigi_cardview"
             layout="@layout/luigi_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1" />
 
         <include
+            android:id="@+id/mario_cardview"
             layout="@layout/mario_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
