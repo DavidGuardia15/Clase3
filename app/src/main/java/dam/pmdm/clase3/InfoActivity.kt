@@ -14,9 +14,20 @@ class InfoActivity : AppCompatActivity() {
 
         binding = ActivityInfoBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         val mensaje = intent.getStringExtra("character").toString()
-        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
 
+        if(mensaje.toString() == "Luigi") {
+            Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
+            binding.image.setImageResource(R.drawable.luigi)
+            binding.titleText.setText(R.string.luigi)
+            binding.info.setText(R.string.informationluigi)
 
+        }else if (mensaje.toString() == "Mario") {
+            Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
+            binding.image.setImageResource(R.drawable.mario)
+            binding.titleText.setText(R.string.mario)
+            binding.info.setText(R.string.informationmario)
+        }
     }
 }
