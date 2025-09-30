@@ -19,7 +19,7 @@
 
 
             <ImageView
-                android:id="@+id/image_luigi"
+                android:id="@+id/image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -43,7 +43,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/title_luigi_text"
+                        android:id="@+id/title_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -54,7 +54,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/luigi_info"
+                        android:id="@+id/info"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"

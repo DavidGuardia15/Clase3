@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.luigiCardview.root.setOnClickListener {
-            //Toast.makeText(this, "Luigi", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, InfoActivity::class.java)
             intent.putExtra("character", "Luigi")
             startActivity(intent)
@@ -25,6 +24,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.marioCardview.root.setOnClickListener {
             Toast.makeText(this, "Mario", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, InfoActivity::class.java)
+            intent.putExtra("character", "Mario")
+            startActivity(intent)
         }
 
         binding.peachCardview.root.setOnClickListener {
