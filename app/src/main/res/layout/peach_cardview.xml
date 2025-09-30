@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_gravity="bottom"
-                android:text="@string/yoshi"
+                android:text="@string/peach"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
